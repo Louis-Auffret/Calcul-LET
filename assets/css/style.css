@@ -1,0 +1,169 @@
+body {
+    background-color: black;
+}
+
+body{
+    display: flex;
+    justify-content: flex-start;
+}
+.button{
+    width: 8rem;
+    height: 8rem;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(45deg, #d3d3d3,#FFFFFF); */
+    /* border: solid black 1px; */
+    background-color: black;
+    border: none;
+    color: white;
+}
+.oper{
+    width: 8rem;
+    height: 8rem;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border: none;
+    color: orange;
+}
+.oper:hover{
+    color: rgb(211, 120, 0);
+}
+.del{
+    width: 8rem;
+    height: 8rem;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    border: none;
+    color: red;
+}
+.del:hover{
+    color: rgb(202, 0, 0);
+}
+
+.button:hover{
+    color: #b9b9b9;
+}
+.res{
+    width: 8rem;
+    height: 8rem;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: solid 10px white;
+}
+.res:hover{
+    color: orange;
+    border: solid 10px orange;
+
+}
+
+
+
+
+
+.champs{
+    background-color: none;
+    width: 40rem;
+    height: 9rem;
+    border: 0.8rem solid white;
+    font-size: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1.35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#result{
+    font-weight: 600;
+    font-size: 4.5rem;
+}
+#resultat{
+    margin-top: 3rem;
+}
+#champOperator{
+    border: solid 0.8rem orange;
+    color: orange;
+}
+
+
+
+/*-------- Mobile Size --------*/
+@media (max-width: 575px){  
+    body{
+        display: inline;
+        justify-content: flex-start;
+    }
+    .button{
+        width: 20vw;
+        height: 20vw;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .oper{
+        width: 20%;
+        height: auto;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .del{
+        width: 20%;
+        height: auto;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .res{
+        width: 20%;
+        height: auto;
+        font-size: 2rem;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+    .res:hover{
+        border: none;
+    }
+    #champOperator{
+        border: 0.25rem solid orange;
+        color: orange;
+    }
+    #resultat{
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    #result{
+        font-weight: 600;
+        font-size: 2.75rem;
+    }
+
+    .champs{
+        background-color: none;
+        width: 90vw;
+        height: 9vh;
+        border: 0.25rem solid white;
+        font-size: 2.25rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.75rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    #touches{
+        text-align: center;
+    }
+
+}
